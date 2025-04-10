@@ -1,3 +1,8 @@
 export default function Home() {
-  return <h1>Hello, Alfa Kaos!</h1>;
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Selamat datang di Alfa Kaos!</h1>
+      <p>Website sedang dalam pengembangan.</p>
+    </div>
+  );
 }
